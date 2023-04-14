@@ -1,0 +1,35 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 20px;
+    background: #102244;
+    color: #ffffff;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    /*display: inline;*/
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+li a {
+    color: #b2b7fa;
+    text-decoration: none;
+}
+li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+div {
+    display: block;
+}
