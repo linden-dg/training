@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Session 1: Intro to HTML & CSS</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Intro to HTML & CSS</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <p>
+      Lorem <span class="test">ipsum dolor</span> sit, amet consectetur adipisicing elit. 
+      Ex illum nemo a tenetur laborum voluptates ipsam sed deleniti totam est aut dolore, 
+      eius, quae ab. Aspernatur animi mollitia modi deleniti.
+    </p>
+    
+
+    <hr class="spacer"/>
+   
+    <h2>CSS specificity</h2>
+    <p>This is some text in a `p`</p>
+    <p class="green-text">This is more text with a `green-text` class</p>
+    <p class="green-text" id="red-text" style="color: blue;">
+      This is demonstrating CSS specificity - 'style attribute' > 'id' > 'class'
+    </p>
+
+    <div>
+      <section>
+        <p class="green-text">This is demonstrating the CSS cascade (and specificity)</p>
+      </section>
+    </div>
+
+    <h3>List styling</h3>
+    <ul>
+      <li>List Item</li>
+      <li class="active">Active List Item</li>
+    </ul>
+
+    <hr class="spacer"/>
+
+    <h2>CSS Box model</h2>
+    <div class="outer">
+      <div class="inner">
+        <div class="inner-child"></div>
+      </div>
+    </div>
+  </body>
+</html>

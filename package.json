@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "session:1": "vite serve ./1-intro-to-html"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
