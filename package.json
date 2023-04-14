@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "session:1": "vite serve ./1-intro-to-html"
+    "session:1": "vite serve ./1-intro-to-html",
+    "session:2": "vite serve ./2-css-flex"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",

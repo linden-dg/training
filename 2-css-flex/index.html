@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Session 2: CSS Flexbox</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="head">This is my app header</header>
+      <div class="app-container">
+        <nav class="nav">
+          <div>Nav Item 1</div>
+          <div>Nav Item 2</div>
+        </nav>
+        <div class="content-container">
+          <main class="content">
+            <h1>Flexbox</h1>
+            <div class="flex-parent">
+              <button onclick="console.log('CLICKED')" class="flex-child">
+                BUTTON
+              </button>
+              <div
+                onclick="console.warn(`DIV SHOULDN'T BE CLICKED! - use a <button> instead`)"
+                class="flex-child"
+              >
+                2
+              </div>
+              <div class="flex-child">3</div>
+              <div class="flex-child">4</div>
+              <div class="flex-child">5</div>
+              <div class="flex-child">6</div>
+              <div class="flex-child">7</div>
+              <div class="flex-child">8</div>
+              <div class="flex-child">9</div>
+              <div class="flex-child">10</div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <footer class="foot">This is my app footer</footer>
+    </div>
+  </body>
+</html>
