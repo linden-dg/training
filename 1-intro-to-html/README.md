@@ -16,11 +16,22 @@ Three pillars of web development
 
 - HTML syntax - opening & closing tags `<xxx> </xxx>`
 - head - metadata for the page
-  - `<title>` -`<link>`
+  - `<title>`
+  - `<link>`
 - body - elements actually rendered on the page
-  - headings -`<h1>`,`<h2>`,`<h3>`, etc -`<p>`,`<span>` -`<b>` vs`<strong>` (presentation vs meaning) -`<i>` vs`<em>` -`<br />` &`<hr />` (note: self-closing) -`<a>` - anchor element
-    - used for navigation within a page (using `#id`) or to another page/URL -`<button>`
-    - used for interactivity/triggering on-click events -`<ul>`/`<ol>` &`<li>` -`<img />` -`<div>` <- **core building block** -`<main>`,`<section>`,`<nav>`,`<header>`,`<footer>`
+  - headings -`<h1>`,`<h2>`,`<h3>`, etc
+  - `<p>`,`<span>`
+    - `<b>` vs`<strong>` (presentation vs meaning)
+    - `<i>` vs`<em>`
+  - `<br />` &`<hr />` (note: self-closing)
+  - `<a>` - anchor element
+    - used for navigation within a page (using `#{id}`) or to another page/URL
+  - `<button>`
+    - used for interactivity/triggering on-click events
+  - `<ul>`/`<ol>` & `<li>`
+  - `<img />`
+  - `<div>` <- **core building block**
+  - page scaffolding - `<main>`,`<section>`,`<nav>`,`<header>`,`<footer>`
 
 ---
 
@@ -43,7 +54,7 @@ Three pillars of web development
 
 - specificity - highest specificity selector will "win"
   - e.g. inline style > id > class > element
-- **the box model** - div as a box:
+- **the box model** - div as a box:  
   ![CSS box model](./assets/css-box-model.png)
 
 - hex & rgb colors

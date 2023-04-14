@@ -18,7 +18,7 @@
 - media queries (responsive/mobile-first)
 - pseudo classes
   - `:hover`
-  - `:focus`and`:active`
+  - `:focus` and `:active`
 - overflow
   - `none`, `auto`, `scroll`
 - cursor - `pointer` & `not-allowed`
