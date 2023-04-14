@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json,html,css,scss}\" --ignore-path .gitignore",
     "session:1": "vite serve ./1-intro-to-html",
     "session:2": "vite serve ./2-css-flex"
   },

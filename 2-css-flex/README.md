@@ -13,8 +13,8 @@
   - flex-shrink
   - align-self
 
-
 ## Other CSS functionality
+
 - media queries (responsive/mobile-first)
 - pseudo classes
   - `:hover`
